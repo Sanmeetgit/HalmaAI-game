@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     # Validate b_size and t_limit
     if b_size not in BOARD_SIZES:
-        print("error: <b-size> and should be [" + ", ".join(BOARD_SIZES) + "]")
+        print("error: <b-size> should be [" + ", ".join(BOARD_SIZES) + "]")
         sys.exit(-1)
 
     if not b_size.isdigit() or not t_limit.isdigit():
